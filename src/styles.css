@@ -11,8 +11,7 @@ body {
 
 h1,
 h2,
-h3
- {
+h3 {
   text-align: center;
   color: black;
   font-family: var(--heading-font-family);
@@ -30,10 +29,10 @@ h1 {
 }
 
 .hero h2 {
-    font-family: var(--heading-font-family);
-    font-weight: normal;
-    line-height: 2;
-    font-size: 24px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  line-height: 2;
+  font-size: 28px;
 }
 
 .hero p {
@@ -44,7 +43,7 @@ h1 {
 }
 
 .mb-5 {
-    margin-bottom: 3rem!important;
+  margin-bottom: 3rem !important;
 }
 
 .btn-branding {
@@ -68,5 +67,5 @@ h1 {
   border: 1px solid blue;
 }
 .btn:hover {
-  background: #6c63ff;  
+  background: #6c63ff;
 }
