@@ -21,6 +21,16 @@ h1 {
   font-size: 96px;
 }
 
+h2 {
+  font-size: 42px;  
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -45,6 +55,8 @@ h1 {
 }
 .m-5 {
   margin-bottom: 3rem !important;
+  font-size: 18px;
+  font-weight:bold;
 }
 
 .btn-branding {
@@ -67,9 +79,30 @@ h1 {
   user-select: none;
   border: 1px solid blue;
 }
+
 .btn:hover {
   background: #6c63ff;
 }
+
 p {
-    text-align: center;
+  text-align: center;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+ background: transparent;
+}
+
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.project-description {
+  padding: 35px 42px;
 }
