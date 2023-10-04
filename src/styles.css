@@ -25,10 +25,44 @@ h2 {
   font-size: 42px;  
 }
 
+.container {
+  margin: 10px 60px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a:hover, nav li.active a {
+  color: var(--branding-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+img {
+  vertical-align: middle;
 }
 
 .hero {
