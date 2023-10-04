@@ -26,7 +26,15 @@ h2 {
 }
 
 .container {
-  margin: 10px 60px;
+  margin: 10px 10px;
+}
+
+ul {
+  display: block;
+}
+
+nav {
+  padding: 5px 0px;
 }
 
 nav ul {
@@ -49,6 +57,13 @@ nav a {
   text-decoration: none;
   color: #272142;
   transition: all 100ms ease-in-out;
+}
+
+.justify-content-between {
+  justify-content: space-between!important;
+}
+.d-flex {
+  display: flex! important;
 }
 
 p {
