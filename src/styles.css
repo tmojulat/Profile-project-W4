@@ -63,6 +63,12 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
+footer {
+  margin: 60px 0;
+  display: block;
+  padding-top: 50px!important;
+}
+
 footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
@@ -198,8 +204,3 @@ img {
     vertical-align: center;
   }
 }
-
-footer .contact-box {
-  padding: 30px;
-}
-
