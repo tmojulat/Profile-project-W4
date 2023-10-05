@@ -155,3 +155,9 @@ p {
 .project-description {
   padding: 35px 42px;
 }
+
+@media (max-width: 900px) {
+  .btn-branding-outline {
+    vertical-align: center;
+  }
+}
